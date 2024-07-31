@@ -1,5 +1,13 @@
+import java.util.Scanner;
+
 public class Contador {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        
+    }
+
+    static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException{
+        if(parametroUm > parametroDois){
+            throw new ParametrosInvalidosException();
+        } 
     }
 }
